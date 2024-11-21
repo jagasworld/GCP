@@ -8,6 +8,10 @@ variable "region" {
   type        = string
 }
 
+variable "gcp_svc_key" {
+
+}
+
 variable "zone" {
   description = "The zone to deploy resources"
   type        = string
